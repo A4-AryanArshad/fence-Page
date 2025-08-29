@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Furman and Friend Fencing - Get your free same-day estimate today!">
+    
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <title>Contact - Furman and Friend Fencing</title>
+    
+    <style>
+        .contact-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            padding: 2rem;
+        }
+        
+        .contact-container {
+            background: white;
+            border-radius: 20px;
+            padding: 4rem 3rem;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        .contact-title {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .contact-subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 3rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1.5rem;
+            border-radius: 15px;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item:hover {
+            background: #fff5f5;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(220, 20, 60, 0.1);
+        }
+        
+        .contact-icon {
+            font-size: 2rem;
+            color: #dc143c;
+            min-width: 50px;
+        }
+        
+        .contact-link {
+            color: #dc143c;
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-link:hover {
+            color: #b71c3c;
+            transform: scale(1.05);
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #dc143c;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background: #b71c3c;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(220, 20, 60, 0.3);
+        }
+        
+        .contact-message {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .contact-container {
+                padding: 2rem 1.5rem;
+                margin: 1rem;
+            }
+            
+            .contact-title {
+                font-size: 2rem;
+            }
+            
+            .contact-link {
+                font-size: 1.4rem;
+            }
+            
+            .contact-item {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-page">
+        <div class="contact-container">
+            <h1 class="contact-title">Contact Furman & Friend Fencing</h1>
+            <p class="contact-subtitle">Get Your Free Same-Day Estimate</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="ri-phone-fill contact-icon"></i>
+                    <a href="tel:+1234567890" class="contact-link">(123) 456-7890</a>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="ri-mail-fill contact-icon"></i>
+                    <a href="mailto:info@furmanfencing.com" class="contact-link">info@furmanfencing.com</a>
+                </div>
+            </div>
+            
+            <p class="contact-message">
+                Call or email us today for your free same-day estimate!<br>
+                Professional consultation and competitive pricing guaranteed.
+            </p>
+            
+            <a href="index.html" class="back-button">
+                <i class="ri-arrow-left-line"></i>
+                Back to Home
+            </a>
+        </div>
+    </div>
+</body>
+</html> 
